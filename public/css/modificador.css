@@ -1,0 +1,58 @@
+#cssmenu{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.fila-tabla{
+	border-top: none;
+	border-style:none;
+	padding-right: 5px;
+	padding-left: 0px;
+	color:#204a87;
+}
+
+.tabla-contenedor{
+	width: 100%;
+	background-color: transparent;
+	border-style: none;
+	border:none;
+}
+
+.tabla-contenedor > tr{
+	border: none;
+	border-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.borde-fila{
+	border: solid 0.5px;
+	border-color:#f6f9f8;
+	height: auto;
+}
+
+.borde-fila > td {
+	border-style: none;
+	border:0px;
+
+}
+
+.borde-fila > th{
+	border-style: none;
+	border:0px;
+	
+}
+
+#alinear {
+	margin-right: 10px;
+}
+
+.pagination{
+	height: 30px;
+	margin: 0px 0px;
+}
+
+.td_vacio {
+	height: 30px;
+}
+

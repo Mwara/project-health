@@ -1,0 +1,150 @@
+.tabla {
+	background-color: none;
+	border-width: 0.5px;
+	border-color:gray; 
+	border-style:none;
+	width: 100%;
+	height: auto;
+	margin: 0px 1px 1px 1px;
+	font-family: 'Open Sans', sans-serif;
+  	line-height: 1;
+}
+
+#background-image
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 0px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	border-style: solid 1px;
+}
+
+#background-image tbody a{
+	color: #336E7B;
+	font-size: 14px;
+	text-decoration: none;
+}
+#background-image tbody a:hover{
+	color: #3498DB;
+	font-style: italic;
+}
+
+#background-image th
+{
+	padding: 12px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #204a87;
+	background-color: #f6f9f8; /*#D2D7D3;*/
+}
+
+#background-image thead td
+{
+	padding: 12px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	color: #FFFFFF;
+}
+
+#background-image tbody td
+{
+	padding: 9px 4px;
+	color: #000;
+	border-top: 1px dotted gray;
+}
+
+#alinear {
+	
+	text-align: center;
+}
+#alinear td {
+	padding: 9px 12px;
+	color: #000;
+	border-top: 1px dotted gray;
+}
+#alinear th {
+	padding: 12px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	color: #FFFFFF;
+	background-color: #D2D7D3;
+}
+
+#background-image tfoot td
+{
+	padding: 12px;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+#background-image tfoot td a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+#background-image tfoot td a:hover
+{
+	color: #CF000F;
+	
+}
+#background-image tbody td
+{
+	background-color: none;
+}
+* html #background-image tbody td
+{
+	/* 
+	   ----------------------------
+		PUT THIS ON IE6 ONLY STYLE 
+		AS THE RULE INVALIDATES
+		YOUR STYLESHEET
+	   ----------------------------
+	*/
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../imagenes/table-images/back.png',sizingMethod='crop');
+	background: none;
+}	
+#background-image tbody tr:hover td
+{
+	color: #000;
+	background: url('../imagenes/table-images/back.png');
+}
+
+/* Tabla de datos personales*/
+#tabla_p{
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-color:#5C97BF; 
+	border-style:solid;
+	width: 100%;
+	height: 520px;
+	margin-top: 2px;
+}
+#t_dato {
+	float: left;
+	padding: 9px 12px;
+	color: #000;
+	border: 1px solid gray;	
+	margin-top: 2px;
+	border-collapse: collapse;
+}
+
+#t_dato td {
+	border-top: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+}
+
+#t_signos {
+	float:right;
+	padding: 9px 12px;
+	color: #000;
+	border-top: 1px dotted gray;
+
+}
+
+
+
+
